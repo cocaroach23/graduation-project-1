@@ -118,8 +118,98 @@ header{
     margin-bottom: 72px;
 }
 
+.treatment{
+    max-width: 1180px;
+    margin: auto;
+
+}
+
+.treatment_h2{
+    padding-top: 116px;
+    padding-bottom: 33px;
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 65px;
+    color: #0369A1;
+}
+
+.treatment_objects{
+    display: flex;
+    gap: 25px;
+}
+
+.treatment_text{
+    text-align: justify;
+    max-width: 60%;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #0B4269;
+}
+
+.treatment_img{
+    width: calc(100% / 2);
+    background-image: url(image/patient.png);
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 2px 4px 4px rgba(115, 115, 115, 0.25);
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1180px;
+    margin: auto;
+}
+
+.price_h2{
+    padding-top: 180px;
+    padding-bottom: 137px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #0369A1;
+}
+
+.price_items{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.price_item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1080px;
+    min-height: 78px;
+    padding: 0 56px 0 56px;
+    border-radius: 30px;
+    /*background: #F0F9FF;*/
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #075985;
+}
 
 
+
+.item_1{
+    background: #F0F9FF;
+}
+
+.item_1 span{
+    color: #0EA5E9;
+}
+
+.item_2{
+    background: #E0F2FE;
+}
+
+.item_2 span{
+    color: #26992A;
+}
 
 
 
@@ -245,6 +335,14 @@ footer{
 .footer_numbers{
     display: flex;
     flex-direction: column;
+}
+
+.footer_number{
+    color: #075985;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
 }
 
 .footer_guarantees{
