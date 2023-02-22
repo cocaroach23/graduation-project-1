@@ -118,6 +118,16 @@ header{
     margin-bottom: 72px;
 }
 
+
+
+
+
+
+
+
+
+
+
 .services{
     display: flex;
     flex-direction: column;
@@ -192,194 +202,6 @@ header{
 .arrow_right{
     height: 85px;
     width: 35px;
-}
-
-.description{
-    background: url(image/background-1.png);
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-}
-
-.description_items{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.description_h2{
-    padding-top: 46px;
-    padding-bottom: 46px;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 54px;
-    color: #0C4A6E;
-    
-}
-
-.description_texts{
-    display: flex;
-    flex-direction: column;
-    gap: 45px;
-    /*padding-bottom: 165px;*/
-    max-width: 1180px;
-}
-
-.description_text{
-    text-align: justify;
-    font-size: 24px;
-    line-height: 32px;
-    color: #171717;
-    
-}
-
-.location_button{
-    display: flex;
-    justify-content: flex-end;
-    max-width: 1180px;
-    margin: auto;
-    padding: 46px 0 67px 0;
-}
-
-.description_button{
-    background-color: #0EA5E9;
-    border: none;
-    color: #F0F9FF;
-    text-decoration: none;
-    width: 242px;
-    height: 51px;
-    font-size: 18px;
-    border-radius: 10px;
-}
-
-.reviews{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 1180px;
-    margin: auto;
-    
-}
-
-.reviews_h2{
-    padding-top: 129px;
-    padding-bottom: 83px;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 54px;
-    color: #0369A1;
-}
-
-.feedback_cards{
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    gap: 50px;
-    justify-content: space-between;
-    padding-bottom: 154px;
-}
-
-.feedback_card{
-    display: flex;
-    border:1px solid #E5E5E5;
-    border-radius: 20px;
-    box-shadow: drop-shadow(1px 2px 4px rgba(115, 115, 115, 0.25));
-    max-width: 580px;
-    flex-grow: 1;
-
-}
-
-.feedback_img{
-    width: 102px;
-    height: 106px;
-    border: 90px;
-    margin: 30px 15px 35px 25px;
-}
-
-.feedback_elemts{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.feedback_h3{
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 32px;
-    color: #0284C7;
-}
-
-.feedback_text{
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19px;
-    color: #737373;
-}
-
-.branches{
-    background: url(image/map-background.png)
-}
-
-.branches_center{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    max-width: 1180px;
-    margin: auto;
-    gap: 50px;
-}
-
-.branches_h2{
-    margin: auto;
-    color: #0369A1;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 54px;
-    padding-top: 55px;
-}
-
-.branch_card{
-    border: 1px solid #0284C7;
-    border-radius: 25px;
-    background: #FFFFFF;
-}
-
-.branch_cards{
-    display: flex;
-    justify-content: center;
-    gap: 23px;
-    /*max-width: 1180px;
-    margin: auto;*/
-    padding-bottom: 50px;
-}
-
-.branch_card_detail{
-    display: flex;
-    gap: 10px;
-    margin: 32px 10px 0 22px;
-}
-
-.branch_icon{
-    width: 27px;
-    height: 33px;
-}
-
-.branch_text{
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #075985;
-}
-
-.branch_text span{
-    font-weight: 600;
-}
-
-.branches_phone{
-    color: #075985;
-    font-size: 19px;
-    line-height: 26px;
-    font-weight: 600px;
-    
 }
 
 footer{

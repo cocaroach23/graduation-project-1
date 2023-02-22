@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+h1{
+    /*width: 608px;*/
+    height: 155px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 59px;
+    color: #262626;
+}
+
+h1 span{
+    color: #0284C7;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*width: 1920px;*/
+    
+    height: 60px;
+    background: #0284C7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media(min-width: 1024px){
+    header{
+        flex-direction: row;
+    }
+    .header{
+        flex-direction: row;
+    }
+}
+@media(min-wigth:425px){
+    .record_text{
+        font-size: 30px;
+
+    }
+    
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-grow: 1;
+    /*position: absolute;*/
+    
+        
+
+    /*background: #0284C7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+}
+
+.header_left{
+    width: 179.97px;
+    height: 48px;
+    padding-top: 10px;
+    font-family: 'Open Sans';
+    font-size: 26px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.navi{
+    padding-top: 15px;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+.navi_items{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-size: 22px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin: 0 20px 0 20px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background: #F0F9FF;
+}
+
+.footer{
+    max-width: 1180px;
+    margin: auto;
+}
+
+.footer_head{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #075985;
+    font-weight: 400;
+    padding-top: 55px;
+}
+
+.facebook_style{
+    font-size: 18px;
+    color: #075985;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer_center{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.footer_addresses{
+    color: #075985;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer_numbers{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_guarantees{
+    display: flex;
+    justify-content: flex-end;
+    color: #075985;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    padding-top: 10px;
+}
