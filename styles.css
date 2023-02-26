@@ -277,6 +277,8 @@ header{
     gap: 50px;
     justify-content: space-between;
     padding-bottom: 154px;
+    
+    
 }
 
 .feedback_card{
@@ -284,8 +286,9 @@ header{
     border:1px solid #E5E5E5;
     border-radius: 20px;
     box-shadow: drop-shadow(1px 2px 4px rgba(115, 115, 115, 0.25));
-    max-width: 580px;
+    /*max-width: 580px;*/
     flex-grow: 1;
+    width: calc((100% - 50px * 1) / 2);
 
 }
 
@@ -373,6 +376,10 @@ header{
 
 .branch_text span{
     font-weight: 600;
+}
+
+.branch_phone{
+    padding: 30px 83px 20px 48px;
 }
 
 .branches_phone{
