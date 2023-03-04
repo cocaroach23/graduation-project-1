@@ -65,12 +65,38 @@ header{
 }
 
 @media(max-width: 768px){
+
+    .record{
+        display: flex;
+    }
+
+    .description{
+        display: flex;
+        flex-direction: column;
+    }
+
     .types_services{
         flex-direction: column;
         gap: 20px;
     }
     .arrow_left{
         transform: rotate(0deg);
+    }
+
+    /*.feedback_elemts{
+        display: flex;
+        flex-direction: column;
+
+    }*/
+
+    .feedback_h3{
+        display: flex;
+        justify-content: center;
+    }
+
+    .feedback_text{
+        text-align: justify;
+        padding: 10px;
     }
 
     .footer_center{
@@ -125,6 +151,7 @@ header{
         align-items: center;
         width: calc(100% / 1);
         margin: auto;
+        padding: 20px;
     }
 
     .arrow_left{
