@@ -16,6 +16,10 @@ h1 span{
     color: #0284C7;
 }
 
+.cursor_pointer{
+    cursor: pointer;
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -187,7 +191,7 @@ header{
     color: #404040;
 }
 
-.button_doctor-1{
+.button_doctor{
     width: 244px;
     height: 51px;
     border: 1px solid #0284C7;

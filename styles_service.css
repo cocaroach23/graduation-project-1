@@ -16,6 +16,10 @@ h1 span{
     color: #0284C7;
 }
 
+.cursor_pointer{
+    cursor: pointer;
+}
+
 header{
     display: flex;
     justify-content: center;
