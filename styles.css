@@ -110,7 +110,7 @@ header{
     }
 }
 
-@media(max-width: 425px){
+@media(max-width: 426px){
 
     
 
@@ -121,7 +121,7 @@ header{
 
     .record{
         display: flex;
-        background-image: none;
+        
     }
 
     .record_content{
@@ -130,17 +130,24 @@ header{
         flex-direction: column;
         gap: 20px;
         margin: auto;
+        align-items: center;
     }
 
     h1 {
+        /*display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        font-size: 35px;*/
         display: flex;
         flex-wrap: wrap;
-        font-size: 35px;
+        font-size: 40px;   /* почему-то не работает */
     }
     .record_text{
         display: flex;
         flex-wrap: wrap;
         font-size: 30px;
+        text-align: center;
 
     }
 
@@ -152,7 +159,7 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: calc(100% / 1);
+        width: calc((100% - 50px * 1) / 1);
         margin: auto;
         padding: 20px;
     }
@@ -166,10 +173,16 @@ header{
         display: none;
     }
 
+    .description_items{
+        padding: 0 15px 0 15px;
+    }
+
+    
     .description_text{
         display: flex;
         flex-wrap: wrap;
         font-size: 20px;
+        
     }
 
     
@@ -233,7 +246,8 @@ header{
 }
 
 .record{
-    background-image: url(image/hero.png);
+    background: url(image/hero.png);
+    background-size: cover;
     width: 100%;
     background-position: center;
 }
@@ -355,6 +369,7 @@ header{
 .description{
     background: url(image/background-1.png);
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    background-size: cover;
 }
 
 .description_items{
@@ -478,7 +493,8 @@ header{
 }
 
 .branches{
-    background: url(image/map-background.png)
+    background: url(image/map-background.png);
+    background-size: cover;
 }
 
 .branches_center{
