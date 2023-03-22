@@ -16,60 +16,7 @@ h1 span{
     color: #0284C7;
 }
 
-@media(max-width: 1024px){
-    header{
-        flex-direction: row;
-    }
-    .header{
-        flex-direction: row;
-    }
 
-    
-    
-}
-
-@media(max-width: 768px){
-
-    
-
-    .footer_center{
-        flex-direction: column;
-        gap: 20px;
-        padding-left: 20px;
-        font-size: 20px;
-    }
-}
-
-@media(max-width: 425px){
-
-    .header{
-        display: flex;
-        flex-direction: column;
-    }    
-
-    .presentation_text{
-        font-size: 26px;
-    }
-
-    .navi_items{
-        width: calc(100% / 1);
-        gap: 10px;
-    }
-
-    .record_text{
-        font-size: 30px;
-    
-    }
-
-    .doctors_cards{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    
-    
-}
 
 .cursor_pointer{
     cursor: pointer;
@@ -341,4 +288,72 @@ footer{
     line-height: 23px;
     padding-top: 10px;
     padding-bottom: 69px;
+}
+
+@media(max-width: 1024px){
+    header{
+        flex-direction: row;
+    }
+    .header{
+        flex-direction: row;
+    }
+
+    
+    
+}
+
+@media(max-width: 768px){
+
+    
+
+    .footer_center{
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 425px){
+
+    .header{
+        
+        flex-direction: row;
+        
+    }
+    
+    .presentation{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .presentation_h1{
+        margin-top: 40px;
+    }
+
+    .presentation_text{
+        font-size: 26px;
+    }
+
+    .navi_items{
+        width: calc(100% / 1);
+        gap: 10px;
+    }
+
+    .record_text{
+        font-size: 30px;
+    
+    }
+
+    .doctors_cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;        
+    }
+
+    
+
+    
+    
 }

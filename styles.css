@@ -110,96 +110,7 @@ header{
     }
 }
 
-@media(max-width: 426px){
 
-    
-
-    .navi_items{
-        width: calc(100% / 1);
-        gap: 10px;
-    }
-
-    .record{
-        display: flex;
-        
-    }
-
-    .record_content{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        gap: 20px;
-        margin: auto;
-        align-items: center;
-    }
-
-    h1 {
-        /*display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-        justify-content: center;
-        font-size: 35px;*/
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 40px;   /* почему-то не работает */
-    }
-    .record_text{
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 30px;
-        text-align: center;
-
-    }
-
-    .feedback_cards{
-        flex-direction: column;
-    }
-
-    .feedback_card{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: calc((100% - 50px * 1) / 1);
-        margin: auto;
-        padding: 20px;
-    }
-
-    .arrow_left{
-        display: none;
-
-    }
-
-    .arrow_right{
-        display: none;
-    }
-
-    .description_items{
-        padding: 0 15px 0 15px;
-    }
-
-    
-    .description_text{
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 20px;
-        
-    }
-
-    
-
-    .branch_cards{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .footer_center{
-        flex-direction: column;
-        gap: 20px;
-        padding-left: 20px;
-        font-size: 20px;
-    }
-    
-}
 
 
 
@@ -461,7 +372,7 @@ header{
     box-shadow: drop-shadow(1px 2px 4px rgba(115, 115, 115, 0.25));
     /*max-width: 580px;*/
     flex-grow: 1;
-    width: calc((100% - 50px * 1) / 2);
+    max-width: calc((100% - 50px * 1) / 2);
 
 }
 
@@ -648,3 +559,96 @@ footer{
     padding-bottom: 69px;
 }
 
+@media(max-width: 426px){
+
+    
+
+    .navi_items{
+        width: calc(100% / 1);
+        gap: 10px;
+    }
+
+    .record{
+        display: flex;
+        
+    }
+
+    .record_content{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
+        margin: auto;
+        align-items: center;
+    }
+
+    h1 {
+        /*display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        font-size: 35px;*/
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 40px;   /* почему-то не работает */
+        justify-content: center;
+        align-content: center;
+    }
+    .record_text{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 26px;
+        line-height: 26px;
+        text-align: center;
+
+    }
+
+    .feedback_cards{
+        flex-direction: column;
+    }
+
+    .feedback_card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: calc((100% - 50px * 1) / 1);
+        margin: auto;
+        padding: 20px;
+    }
+
+    .arrow_left{
+        display: none;
+
+    }
+
+    .arrow_right{
+        display: none;
+    }
+
+    .description_items{
+        padding: 0 15px 0 15px;
+    }
+
+    
+    .description_text{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px;
+        
+    }
+
+    
+
+    .branch_cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_center{
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+    
+}
