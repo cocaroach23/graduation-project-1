@@ -30,90 +30,6 @@ header{
     cursor: pointer;
 }
 
-@media(max-width: 1024px){
-    header{
-        flex-direction: row;
-    }
-    .header{
-        flex-direction: row;
-    }
-
-    .feedback_card{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        width: calc(100% / 1);
-    }
-
-    .arrow_left{
-        display: none;
-
-    }
-
-    .arrow_right{
-        display: none;
-    }
-
-    .branch_cards{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    }
-
-    .branch_card{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media(max-width: 768px){
-
-    .record{
-        display: flex;
-    }
-
-    .description{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .types_services{
-        flex-direction: column;
-        gap: 20px;
-    }
-    .arrow_left{
-        transform: rotate(0deg);
-    }
-
-    /*.feedback_elemts{
-        display: flex;
-        flex-direction: column;
-
-    }*/
-
-    .feedback_h3{
-        display: flex;
-        justify-content: center;
-    }
-
-    .feedback_text{
-        text-align: justify;
-        padding: 10px;
-    }
-
-    .footer_center{
-        flex-direction: column;
-        gap: 20px;
-        padding-left: 20px;
-        font-size: 20px;
-    }
-}
-
-
-
-
-
 .header{
     display: flex;
     justify-content: space-evenly;
@@ -559,6 +475,86 @@ footer{
     padding-bottom: 69px;
 }
 
+@media(max-width: 1024px){
+    header{
+        flex-direction: row;
+    }
+    .header{
+        flex-direction: row;
+    }
+
+    .feedback_card{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: calc(100% / 1);
+    }
+
+    .arrow_left{
+        display: none;
+
+    }
+
+    .arrow_right{
+        display: none;
+    }
+
+    .branch_cards{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .branch_card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width: 768px){
+
+    .record{
+        display: flex;
+    }
+
+    .description{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .types_services{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .arrow_left{
+        transform: rotate(0deg);
+    }
+
+    /*.feedback_elemts{
+        display: flex;
+        flex-direction: column;
+
+    }*/
+
+    .feedback_h3{
+        display: flex;
+        justify-content: center;
+    }
+
+    .feedback_text{
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .footer_center{
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+}
+
 @media(max-width: 426px){
 
     .header{
@@ -602,7 +598,7 @@ footer{
         font-size: 35px;*/
         display: flex;
         flex-wrap: wrap;
-        font-size: 40px;   /* почему-то не работает */
+        font-size: 36px;   
         justify-content: center;
         align-content: center;
     }
@@ -656,11 +652,23 @@ footer{
         flex-direction: column;
     }
 
-    .footer_center{
+    .footer_head{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .footer_center {
         flex-direction: column;
         gap: 20px;
         padding-left: 20px;
         font-size: 20px;
+    }
+
+    .footer_guarantees{
+        display: flex;
+        justify-content: center;
     }
     
 }

@@ -363,7 +363,24 @@ footer{
         justify-content: center;        
     }
 
+    .footer_head{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
     
+    .footer_center {
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    .footer_guarantees{
+        display: flex;
+        justify-content: center;
+    }
 
     
     

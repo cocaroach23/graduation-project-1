@@ -431,7 +431,7 @@ footer{
         font-size: 35px;*/
         display: flex;
         flex-wrap: wrap;
-        font-size: 40px;   /* почему-то не работает */
+        font-size: 36px;   
         justify-content: center;
         align-content: center;
     }
@@ -442,6 +442,15 @@ footer{
         line-height: 26px;
         text-align: center;
 
+    }
+
+    .arrow_left{
+        display: none;
+
+    }
+
+    .arrow_right{
+        display: none;
     }
 
     .treatment_h2{
@@ -471,12 +480,24 @@ footer{
     .price_items{
         max-width: 95%;
     }
+
+    .footer_head{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
     
     .footer_center {
         flex-direction: column;
         gap: 20px;
         padding-left: 20px;
         font-size: 20px;
+    }
+
+    .footer_guarantees{
+        display: flex;
+        justify-content: center;
     }
     
 }
