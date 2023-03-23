@@ -676,3 +676,14 @@ footer{
     }
     
 }
+
+@media(max-width: 376px){
+
+    h1{
+        font-size: 30px;
+    }
+
+    .description_text{
+        font-size: 18px;
+    }
+}
