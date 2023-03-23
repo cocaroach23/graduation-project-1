@@ -139,6 +139,10 @@ header{
     
 }
 
+.transition_service{
+    text-decoration: none;
+}
+
 .services_items{
     width: 277px;
     height: 183px;
