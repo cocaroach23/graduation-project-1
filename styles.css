@@ -494,6 +494,11 @@ footer{
         width: calc(100% / 1);
     }
 
+    .types_services{
+        flex-direction: column;
+        gap: 20px;
+    }
+
     .arrow_left{
         display: none;
 
@@ -501,6 +506,11 @@ footer{
 
     .arrow_right{
         display: none;
+    }
+
+    .description{
+        display: flex;
+        flex-direction: column;
     }
 
     .branch_cards{
@@ -514,12 +524,38 @@ footer{
         flex-direction: column;
         align-items: center;
     }
+
+    .footer_guarantees{
+        justify-content: center;
+        padding-top: 30px;
+    }
 }
 
-@media(max-width: 768px){
+@media(max-width: 896px){
 
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header_left{
+        padding-left: 30px;
+    }
+
+    .navi{
+        flex-direction: column;
+        text-align: center;
+        display: flex;
+        gap: 10px;
+        padding-bottom: 10px;
+    }
+    
     .record{
         display: flex;
+    }
+
+    h1{
+        font-size: 40px;
     }
 
     .description{
@@ -531,6 +567,7 @@ footer{
         flex-direction: column;
         gap: 20px;
     }
+
     .arrow_left{
         transform: rotate(0deg);
     }
@@ -547,11 +584,12 @@ footer{
     }
 
     .feedback_text{
-        text-align: justify;
+        text-align: center;
         padding: 10px;
     }
 
     .footer_center{
+        align-items: center;
         flex-direction: column;
         gap: 20px;
         padding-left: 20px;
@@ -670,10 +708,7 @@ footer{
         font-size: 20px;
     }
 
-    .footer_guarantees{
-        display: flex;
-        justify-content: center;
-    }
+    
     
 }
 
@@ -686,4 +721,6 @@ footer{
     .description_text{
         font-size: 18px;
     }
+
+    
 }
