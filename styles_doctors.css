@@ -290,12 +290,26 @@ footer{
     padding-bottom: 69px;
 }
 
+@media(max-width: 1200px){
+    .doctors_cards{
+        justify-content: space-around;
+    } 
+}
+
 @media(max-width: 1025px){
     header{
         flex-direction: row;
     }
     .header{
         flex-direction: row;
+    }
+
+    .presentation_h1{
+        font-size: 38px;
+    }
+
+    .presentation_text{
+        font-size: 20px;
     }
 
     .doctors_cards{
@@ -306,9 +320,27 @@ footer{
 
 @media(max-width: 768px){
 
-    
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .header_left{
+        padding-left: 30px;
+    }
+
+    .navi{
+        flex-direction: column;
+        text-align: center;
+        display: flex;
+        gap: 10px;
+        padding-bottom: 10px;
+    }
 
     .footer_center{
+        align-items: center;
         flex-direction: column;
         gap: 20px;
         padding-left: 20px;
@@ -323,6 +355,10 @@ footer{
         flex-direction: column;
         align-items: center;
         
+    }
+
+    .header_left{
+        padding-left: 30px;
     }
 
     .navi{
