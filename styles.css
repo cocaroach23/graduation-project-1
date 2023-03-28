@@ -685,9 +685,7 @@ footer{
         flex-wrap: wrap;
         font-size: 20px;
         
-    }
-
-    
+    }    
 
     .branch_cards{
         display: flex;
@@ -708,6 +706,10 @@ footer{
         font-size: 20px;
     }
 
+    .footer_guarantees{
+        display: flex;
+        justify-content: center;
+    }
     
     
 }

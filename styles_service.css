@@ -520,23 +520,6 @@ footer{
         display: none;
     }
 
-    /*.treatment_h2{
-        font-size: 32px;
-        text-align: center;
-
-    }
-
-    .treatment_objects{
-        display: flex;
-        justify-content: center;
-    }
-
-    .treatment_text{
-        min-width: 90%;
-        font-size: 26px;
-    }*/
-
-
     .price_h2{
         text-align: center;
         font-size: 28px;
